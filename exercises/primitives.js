@@ -12,6 +12,10 @@
 
 //* Begin of tests
 const assert = require('assert')
+let str = '1337';
+let num = 42;
+let bool = false;
+let undef = undefined;
 
 assert.strictEqual(typeof str, 'string')
 assert.strictEqual(str, '1337')

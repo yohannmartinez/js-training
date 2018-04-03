@@ -1,13 +1,13 @@
 'use strict'
 
 /*
- * Create a `keepFirst` function that takes a string as parameter
- * and return the string only keeping the 2 first characters
+ * Create a function `keepFirst` takes a string
+ * and only keep the 2 first characters
  *
- * Create a `keepLast` function that takes a string as parameter
- * and return the string only keeping the 2 last characters
+ * Create a function `keepLast` takes a string
+ * and only keep the 2 last characters
  *
- * Create a `keepFirstLast` function that takes a string as parameter
+ * Create a function `keepFirstLast` takes a string
  * and only keep 2 characters from the third character
  *
  */

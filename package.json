@@ -28,15 +28,15 @@
     },
     {
       "name": "get-length",
-      "tags": [ "get", "gets", "function" ]
+      "tags": [ "gets", "function" ]
     },
     {
       "name": "get-first",
-      "tags": [ "get", "gets", "function" ]
+      "tags": [ "gets", "function" ]
     },
     {
       "name": "get-last",
-      "tags": [ "get", "gets", "function" ]
+      "tags": [ "gets", "function" ]
     },
     {
       "name": "concat-str",
@@ -44,7 +44,7 @@
     },
     {
       "name": "get",
-      "tags": [ "get", "gets", "function" ]
+      "tags": [ "gets", "function" ]
     },
     {
       "name": "is-positive",

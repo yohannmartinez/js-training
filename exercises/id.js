@@ -1,7 +1,7 @@
 'use strict'
 
 /*
- * Create an `id` function that takes one argument and return it
+ * Create a function `id` that takes one argument and return it
  *
  * @notions Functions
  */
@@ -10,6 +10,10 @@
 
 //* Begin of tests
 const assert = require('assert')
+
+function id(param) {
+    return param;
+}
 
 assert.strictEqual(typeof id, 'function')
 assert.strictEqual(id.length, 1)

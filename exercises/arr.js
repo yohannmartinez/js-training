@@ -1,7 +1,7 @@
 'use strict'
 
 /*
- * Create a constant variable named `arr` that is an array containing the values 4 and '2'
+ * Create a constant variables named `arr` that contains an array of 4 and '2'
  *
  * @notions Data-Structures
  */
@@ -10,6 +10,8 @@
 
 //* Begin of tests
 const assert = require('assert')
+
+let arr = [4,'2']
 
 assert.strictEqual(Array.isArray(arr), true)
 assert.strictEqual(arr[0], 4)
