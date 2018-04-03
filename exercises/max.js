@@ -14,6 +14,14 @@
 //* Begin of tests
 const assert = require('assert')
 
+function max(param, param2){
+    if(param > param2){
+        return param;
+    } else {
+        return param2;
+    }
+}
+
 assert.strictEqual(typeof max, 'function')
 assert.strictEqual(max.length, 2)
 assert.strictEqual(max.toString().includes('Math.max'), false)

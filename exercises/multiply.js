@@ -13,6 +13,23 @@
 //* Begin of tests
 const assert = require('assert')
 
+function multiply(number1, number2) {
+    let numb = 0;
+    let i = 0;
+    if (number2 > 0) {
+        while (i < number2) {
+            numb = numb + number1;
+            i++;
+        }
+    } else {
+        while (i > number2) {
+            numb = numb - number1;
+            i--;
+        }
+    }
+    return numb;
+}
+
 assert.strictEqual(typeof multiply, 'function')
 assert.strictEqual(multiply.length, 2)
 assert.strictEqual(multiply.toString().includes('Math.imul'), false)

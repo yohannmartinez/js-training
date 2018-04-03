@@ -9,6 +9,14 @@
 
 // Your code :
 
+function sameSign(param,param2){
+    if( param > 0 && param2 > 0 || param < 0 && param2 < 0 || param == param2 ){
+        return true;
+    } else {
+        return false;
+    }
+}
+
 //* Begin of tests
 const assert = require('assert')
 

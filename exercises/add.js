@@ -12,6 +12,10 @@
 const assert = require('assert')
 const rand = Math.random()
 
+function add(param, param2){
+    return param + param2;
+}
+
 assert.strictEqual(typeof add, 'function')
 assert.strictEqual(add.length, 2)
 assert.strictEqual(add(2, 2), 4)

@@ -15,6 +15,16 @@
 //* Begin of tests
 const assert = require('assert')
 
+function sign(param){
+    if(param > 0){
+        return 1;
+    } else if ( param < 0){
+        return -1;
+    } else {
+        return 0;
+    }
+}
+
 assert.strictEqual(typeof sign, 'function')
 assert.strictEqual(sign.toString().includes('Math.sign'), false)
 assert.strictEqual(sign.length, 1)

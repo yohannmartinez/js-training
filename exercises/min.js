@@ -14,6 +14,15 @@
 //* Begin of tests
 const assert = require('assert')
 
+function min(param, param2){
+    if(param < param2){
+        return param;
+    } else {
+        return param2;
+    }
+}
+
+
 assert.strictEqual(typeof min, 'function')
 assert.strictEqual(min.length, 2)
 assert.strictEqual(min.toString().includes('Math.min'), false)

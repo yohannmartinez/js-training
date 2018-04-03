@@ -13,6 +13,13 @@
 
 //* Begin of tests
 const assert = require('assert')
+function abs(param){
+    if(param > 0){
+        return param;
+    } else {
+        return -param;
+    }
+}
 
 assert.strictEqual(typeof abs, 'function')
 assert.strictEqual(abs.toString().includes('Math.abs'), false)

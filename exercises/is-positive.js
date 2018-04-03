@@ -12,6 +12,14 @@
 //* Begin of tests
 const assert = require('assert')
 
+function isPositive(param){
+    if(param > 0){
+        return true;
+    } else {
+        return false;
+    }
+}
+
 assert.strictEqual(typeof isPositive, 'function')
 assert.strictEqual(isPositive.length, 1)
 assert.strictEqual(isPositive(3), true)
