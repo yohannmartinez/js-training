@@ -1,25 +1,27 @@
 'use strict'
 
 /*
- * Create the function `abs` that takes one number argument
- * and returns it's absolute value.
- * You must not just use `Math.abs`, make your own.
- * see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs
- *
- * @notions Functions, Ternary
- */
+* Create the function `abs` that takes one number argument
+* and returns it's absolute value.
+* You must not just use `Math.abs`, make your own.
+* see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs
+*
+* @notions Functions, Ternary
+*/
 
 // Your code :
 
+function abs(number) {
+if (number >= 0) {
+return number;
+} else {
+return number * -1;
+}
+
+}
+
 //* Begin of tests
 const assert = require('assert')
-function abs(param){
-    if(param > 0){
-        return param;
-    } else {
-        return -param;
-    }
-}
 
 assert.strictEqual(typeof abs, 'function')
 assert.strictEqual(abs.toString().includes('Math.abs'), false)
